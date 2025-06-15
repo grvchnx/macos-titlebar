@@ -11,7 +11,4 @@ done
 # Copy new GTK configuration files
 cp -r gtk-3.0 gtk-4.0 "$HOME/.config/"
 
-# Set window controls to the left
-gsettings set org.gnome.desktop.wm.preferences button-layout 'close,minimize,maximize:'
-
 echo "Installation complete. Please log out and log back in to apply changes."
